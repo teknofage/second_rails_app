@@ -1,4 +1,7 @@
 <h1>Listing all articles</h1>
+<p>
+<%= link_to "Create new article", new_article_path %>
+</p>
 <table>
  <tr>
   <th>Title</th>
@@ -13,3 +16,8 @@
  </tr>
  <% end %>
 </table>
+<p>
+ <%= link_to 'Back', articles_path %>
+ </br>
+ <%= link_to 'Home', root_path %>
+ </p>
