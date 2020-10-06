@@ -6,8 +6,8 @@ class PagesController < ApplicationController
     def about
     end
 
-    <%= link_to 'About', about_path %>
-    <%= link_to 'Home', root_path %>
+
 
     end
-   
+    <%= link_to 'About', about_path %>
+    <%= link_to 'Home', root_path %>
